@@ -23,7 +23,5 @@ walk(src, { listeners: {
   },
 }});
 
-console.log('COMPLETE!');
 
 exports = builder.build();
-console.log(exports);
