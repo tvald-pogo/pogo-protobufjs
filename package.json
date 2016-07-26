@@ -1,0 +1,20 @@
+{
+  "name": "pogo-protobufjs",
+  "version": "0.0.1",
+  "description": "Wrapper for latest Pokemon Go protobuf schema with Protobuf.js",
+  "author": "Tony Valderrama <tvald@neon-arcade.co>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neon-arcade/pogo-protobufjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neon-arcade/pogo-protobufjs/issues"
+  },
+  "homepage": "https://github.com/neon-arcade/pogo-protobufjs",
+  "dependencies": {
+    "protobufjs": "^5.0.1",
+    "walk": "^2.3.9"
+  },
+  "license": "MIT"
+}
