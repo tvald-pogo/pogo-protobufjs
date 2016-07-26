@@ -2,7 +2,7 @@ let walk = require('walk').walkSync;
 let Protobuf = require('protobufjs');
 let fs = require('fs');
 
-let src = './POGOProtos/src/POGOProtos';
+let src = './POGOProtos/src';
 
 let builder = Protobuf.newBuilder();
 builder.importRoot = src;
