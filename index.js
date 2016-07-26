@@ -29,7 +29,6 @@ let walk_types = (name, obj) => {
     case 'function':
       if (obj.hasOwnProperty('encode') && obj.hasOwnProperty('decode'))
       {
-        console.log(name);
         typeMap[name] = obj;
         typeNames.push(name);
       }
