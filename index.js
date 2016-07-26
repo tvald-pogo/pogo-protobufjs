@@ -51,7 +51,7 @@ exports.resolve = (type) => {
 };
 
 exports.parse = (buffer, type) => {
-  return exports.resolve(type).decode(buffer);
+  return exports.resolve(type).decode(buffer).toRaw();
 };
 
 exports.serialize = (data, type) => {
